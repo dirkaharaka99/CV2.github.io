@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+</head>
+<body>
+     <header>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#Skill">Skill</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Hobby">Hobby</a></li>
+                <li><a href="#ig">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+          <article id="Skill" class="card">
+            <h2>Skill</h2>
+            <span title="HTML" style="font-size: 70px; color: rgb(68, 72, 138); margin: 10px;">
+                <i class="fa-brands fa-html5"></i>
+              </span>
+            
+              <span title="PHP" style="font-size: 70px; color: rgb(68, 72, 138); ">
+                <i class="fa-brands fa-php"></i>
+              </span>
+
+              <span title="Javascript" style="font-size: 70px; color: rgb(68, 72, 138);">
+                <i class="fa-brands fa-js"></i>
+              </span>
+
+              <span title="Linux" style="font-size: 70px; color: rgb(68, 72, 138);">
+                <i class="fa-brands fa-linux"></i>
+              </span>
+
+              <span title="CSS" style="font-size: 70px; color: rgb(68, 72, 138);">
+                <i class="fa-brands fa-css3-alt"></i>
+              </span>
+          </article>
+       
+
+        
+            
+            <article id="Project" class="card">
+              <h2>My Project</h2>
+              <div class="deret-hobby">
+                <div class="project" onclick="location.href='https://youtu.be/QNsOkDjCYYg'">
+                    <img src="assets/images/shopapp.png" class="project-image" alt="hobby" width="200px" height="200px" >
+                    <div class="penjelasan">
+                        <p class="title-app">Shop App</p>
+                        <p id="isi">This project is built with PHP Codeigniter 3 Framework with Ajax jquery. In this project there is the fiture
+                            like pagination, searching, and data tables. The database use Mysql and we can create, read, update, and delete.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="project" onclick="location.href='https://github.com/dirkaharaka99/Login-redirect-to-datatable-CRUD-CODEIGNITER4-ajax-datatable'" >
+                  <img src="assets/images/ci4.png" class="project-image" alt="hobby" width="200px" height="200px" >
+                  <div class="penjelasan">
+                      <p class="title-app">Management App</p>
+                      <p id="isi">This project is built with PHP Codeigniter 4 Framework with Ajax jquery. In this project there is the fiture
+                          login page, so the user must login before get in to home page, like pagination, searching, and data tables. The database use Mysql and we can create, read, update, and delete.
+                      </p>
+                  </div>
+              </div>
+
+              <div onclick="location.href='https://youtu.be/Ot8A4ho4RrM'" class="project"  >
+                <img src="assets/images/4tabel.png" class="project-image" alt="hobby" width="200px" height="200px" >
+                <div class="penjelasan">
+                    <p class="title-app">Cashier App</p>
+                    <p id="isi">This project is built with PHP Codeigniter 3 Framework with Ajax jquery. In this project there is the fiture
+                        like pagination, searching, and data tables. The database use Mysql and we can create, read, update, and delete. There is 
+                        4 tables (karyawan, transaksi, produk, and pelanggan )
+                    </p>
+                </div>
+            </div>
+
+            <article id="Hobby" class="card">
+              <h2>Hobby</h2>
+              <div class="deret-hobby">
+                <div class="hobby">
+                    <img src="assets/images/3ddesign.jpg" class="image" alt="hobby" width="170px" height="170px" >
+                    <p class="hobyname" style="font-size: 20px;">3D Design</p>
+                </div>
+
+                <div class="hobby">
+                    <img src="assets/images/coding.jpeg" class="image" alt="hobby" width="170px" height="170px" >
+                    <p class="hobyname" style="font-size: 20px;">Coding</p>
+                </div>
+
+                <div class="hobby">
+                    <img src="assets/images/gaming.jpeg" class="image" alt="hobby" width="170px" height="170px" >
+                    <p class="hobyname" style="font-size: 20px;">Gaming</p>
+                </div>
+
+                <div class="hobby">
+                    <img src="assets/images/carving.jpg" class="image" alt="hobby" width="170px" height="170px" >
+                    <p class="hobyname" style="font-size: 20px;">Carving</p>
+                </div>                
+              </div>
+            </article>
+              
+            
+            </article>
+          </div>
+          <aside>
+            <article class="profile card">
+                  <h2>About Me</h2>
+                  <figure>
+                      <img src="assets/images/me.png" class="me-image">
+                      <figcaption>Dirqa Haraka P.N</figcaption>
+                  </figure>
+          </article>
+          </aside>
+
+          <aside>
+            <article class="profile card">
+                  <figure id="ig" onclick="location.href='https://www.instagram.com/dirqaharaka/'">
+                    <i class="fa-brands fa-instagram sosmed"></i>
+                      <figcaption>dirqaharaka</figcaption>
+                  </figure>
+          </article>
+          </aside>
+
+          <aside >
+            <article class="profile card">
+                  <figure onclick="location.href=' https://www.linkedin.com/in/dirqa-haraka-putra-nursadih-756615229/'">
+                    <i class="fa-brands fa-linkedin sosmed"></i>
+                      <figcaption>Dirqa Haraka</figcaption>
+                  </figure>
+          </article>
+          </aside>
+         
+         
+          <aside >
+            <article class="profile card">
+                  <figure onclick="location.href='https://github.com/dirkaharaka99'">
+                    <i class="fa-brands fa-github sosmed"></i>
+                      <figcaption>dirkaharaka99</figcaption>
+                  </figure>
+          </article>
+          </aside>
+
+
+         
+         
+
+          
+    </main>
+    <footer>
+      <p class="footertext"style="color: white;">Dirqa Haraka Putra Nursadih &#169; 2022 - Dicoding Indonesia</p>
+  </footer>    
+</body>
+</html>

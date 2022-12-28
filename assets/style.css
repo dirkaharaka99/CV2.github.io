@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');
+
+
+nav {
+    background-color: #3569;
+    text-align: center;  
+    border-radius: 10px;
+    padding: 15px;
+    margin:20px 20px;
+    box-shadow: 5px 10px 10px #888888;
+}
+
+nav a {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline;
+    list-style-type: none;
+    margin-right: 70px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    
+}
+.card {
+    
+    box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.2);
+    flex-basis: 30%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    border-color: #888888;
+}
+
+.fa-brands{
+    background-color: rgb(174, 243, 234);
+    border-radius: 0.2em;
+    padding: 0.8em;
+    box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hobby{
+    border-radius: 0.2em;
+    padding: 1em;
+    margin: 10px;
+    box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+.image{
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.project{
+    border-radius: 0.8em;
+    padding: 1em;
+    margin: 10px;
+    box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: 15px auto;
+    cursor: pointer;
+    
+    
+}
+
+.penjelasan{
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;  
+}
+
+.title-app{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 27px; 
+
+}
+
+.project-image{
+ 
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.2);
+   
+}
+
+
+aside {
+    margin-top: 0;
+    float: right;
+    width: 28%;
+}
+
+.me-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.2);
+   
+}
+
+.sosmed{
+    border-radius: 0.2em;
+    padding: 1em;
+    margin: 10px;
+    box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.2);
+    font-size: 50px;
+    
+}
+
+footer{
+    background-color: #3569;
+    text-align: center;  
+    border-radius: 10px;
+    padding: 15px;
+    margin:20px 20px;
+    box-shadow: 5px 10px 10px #888888;
+}
+
+figure{
+    cursor: pointer;
+}
+
+figcaption{
+    padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.title-app{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: bold;
+    font-weight: 600;
+}
+
+
+.hobyname{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: normal;
+    font-weight: 400;
+}
+
+.footertext{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    img {
+    flex-basis: 30%;
+     width: 200px;
+     height: 160px;
+     padding: 10px;
+     margin: 20px;
+    }
+
+    .project{
+        margin: 20px;
+        display: inline-table;
+    }
+
+    .penjelasan{
+        margin-top: 0;
+    }
+
+    span{
+        display: grid;
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+/* font-family: 'Josefin Sans', sans-serif;
+
+<i class="fa-brands fa-github"></i>
+<i class="fa-brands fa-linkedin"></i>
+<i class="fa-brands fa-instagram"></i>
+
+<i class="fa-brands fa-html5"></i>
+<i class="fa-brands fa-php"></i>
+<i class="fa-brands fa-js"></i>
+<i class="fa-brands fa-linux"></i>
+<i class="fa-brands fa-css3-alt"></i>
+ */
+
+
